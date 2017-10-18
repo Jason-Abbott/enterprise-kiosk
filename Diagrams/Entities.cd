@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Idaho.Entity" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Entity.cs</FileName>
+      <HashCode>EUAQIAJECBAAhQwgoBlAKAAAAAASAACgICAAACAgAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Address" Collapsed="true">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Address.cs</FileName>
+      <HashCode>EAGAAIAgAAiAAAAMoEoAigAAAAIAAAARAAoABqACAEA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.PhoneNumber" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\PhoneNumber.cs</FileName>
+      <HashCode>ECAgAAAIAAAAAAQEgEAAEAAEAAgAAAAAAAAAAIBAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.PhoneNumberCollection" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\PhoneNumberCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Person" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\Person.cs</FileName>
+      <HashCode>AAEAEEgwgCAgAAAEAAkAAAQAAAAAAAAAAAAAAAAAAAk=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.EntityCollection&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\EntityCollection.cs</FileName>
+      <HashCode>AAIAAAAACACABAAALARABAEAAABQBAAgAAAgASAgAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.AddressCollection" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\AddressCollection.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Idaho.ILinkable" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\ILinkable.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Idaho.IObjectRelationMap&lt;T&gt;" Collapsed="true">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\IObjectRelationMap.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Idaho.ISignalingObject" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\ISignalingObject.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Idaho.ILimitVisibility" Collapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\ILimitVisibility.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Idaho.IFilter" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Domain\IFilter.cs</FileName>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_NullControlContext" xml:space="preserve">
+    <value>Control cannot be created because HttpContext is null</value>
+  </data>
+  <data name="Error_NullCornerPosition" xml:space="preserve">
+    <value>Corner position must be specified before extensions</value>
+  </data>
+  <data name="LDAP_Computer" xml:space="preserve">
+    <value>(objectClass=computer)</value>
+  </data>
+  <data name="LDAP_ComputerID" xml:space="preserve">
+    <value>(&amp;(objectClass=computer)(objectGUID={0}))</value>
+  </data>
+  <data name="LDAP_ComputerName" xml:space="preserve">
+    <value>(&amp;(objectClass=computer)(cn={0}))</value>
+  </data>
+  <data name="LDAP_ComputerNames" xml:space="preserve">
+    <value>(&amp;(objectClass=computer)(|{0}))</value>
+    <comment>substitution must be (cn=[x])(cn=[y])</comment>
+  </data>
+  <data name="LDAP_ComputerTag" xml:space="preserve">
+    <value>(&amp;(objectClass=computer)(cn=*{0}*))</value>
+  </data>
+  <data name="LDAP_ComputerTagAndUsers" xml:space="preserve">
+    <value>(&amp;(objectClass=computer)(cn={0})({1}))</value>
+  </data>
+  <data name="LDAP_GroupName" xml:space="preserve">
+    <value>(&amp;(objectClass=group)(cn={0}))</value>
+  </data>
+  <data name="LDAP_Groups" xml:space="preserve">
+    <value>(objectClass=group)</value>
+  </data>
+  <data name="LDAP_GroupUsers" xml:space="preserve">
+    <value>(&amp;(objectClass=user)(memberOf=CN={0}))</value>
+  </data>
+  <data name="LDAP_Printer" xml:space="preserve">
+    <value>(objectClass=printQueue)</value>
+  </data>
+  <data name="LDAP_UserComputer" xml:space="preserve">
+    <value>(&amp;(objectClass=computer)(description={0}*))</value>
+  </data>
+  <data name="LDAP_UserID" xml:space="preserve">
+    <value>(&amp;(objectClass=user)(objectGUID={0}))</value>
+  </data>
+  <data name="LDAP_UserLogin" xml:space="preserve">
+    <value>(&amp;(objectClass=user)(|(sAMAccountName={0})(homeDirectory=*{0})))</value>
+    <comment>Users with name changes may still have old directory name</comment>
+  </data>
+  <data name="LDAP_UserName" xml:space="preserve">
+    <value>(&amp;(objectClass=user)(cn={0}))</value>
+  </data>
+  <data name="LDAP_UserNameStartsWith" xml:space="preserve">
+    <value>(&amp;(objectCategory=person)(|(givenName={0}*)(sn={0}*)))</value>
+  </data>
+  <data name="LDAP_UserOrganizations" xml:space="preserve">
+    <value>(&amp;(objectClass=organizationalUnit)(ou=Users))</value>
+  </data>
+  <data name="LDAP_Users" xml:space="preserve">
+    <value>(&amp;(objectCategory=person)(objectClass=user)(!(description=Built-in account*)))</value>
+  </data>
+  <data name="Number_Eight" xml:space="preserve">
+    <value>Eight</value>
+  </data>
+  <data name="Number_Eleven" xml:space="preserve">
+    <value>Eleven</value>
+  </data>
+  <data name="Number_Fifteen" xml:space="preserve">
+    <value>Fifteen</value>
+  </data>
+  <data name="Number_Five" xml:space="preserve">
+    <value>Five</value>
+  </data>
+  <data name="Number_Four" xml:space="preserve">
+    <value>Four</value>
+  </data>
+  <data name="Number_Fourteen" xml:space="preserve">
+    <value>Fourteen</value>
+  </data>
+  <data name="Number_Nine" xml:space="preserve">
+    <value>Nine</value>
+  </data>
+  <data name="Number_One" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="Number_Seven" xml:space="preserve">
+    <value>Seven</value>
+  </data>
+  <data name="Number_Six" xml:space="preserve">
+    <value>Six</value>
+  </data>
+  <data name="Number_Ten" xml:space="preserve">
+    <value>Ten</value>
+  </data>
+  <data name="Number_Thirteen" xml:space="preserve">
+    <value>Thirteen</value>
+  </data>
+  <data name="Number_Three" xml:space="preserve">
+    <value>Three</value>
+  </data>
+  <data name="Number_Twelve" xml:space="preserve">
+    <value>Twelve</value>
+  </data>
+  <data name="Number_Two" xml:space="preserve">
+    <value>Two</value>
+  </data>
+  <data name="Number_Zero" xml:space="preserve">
+    <value>Zero</value>
+  </data>
+  <data name="RegEx_GUID" xml:space="preserve">
+    <value>^\w{8}\-\w{4}\-\w{4}\-\w{4}\-\w{12}$</value>
+  </data>
+  <data name="RegEx_HexColor" xml:space="preserve">
+    <value>\#{0,1}[0-9A-F]{3,6}</value>
+  </data>
+  <data name="RegEx_HtmlTagContent" xml:space="preserve">
+    <value>^&lt;.+&gt;([^&lt;]+)&lt;/.+&gt;</value>
+  </data>
+  <data name="RegEx_LDAP" xml:space="preserve">
+    <value>LDAP://.*</value>
+  </data>
+  <data name="RegEx_LdapGroupMember" xml:space="preserve">
+    <value>^CN=([^,]+),OU=(Users|Test)</value>
+  </data>
+  <data name="RegEx_NetworkPath" xml:space="preserve">
+    <value>(\\\\\w{3,10}\\[\w\\]{3,})\b</value>
+  </data>
+  <data name="RegEx_SafeHtml" xml:space="preserve">
+    <value>&lt;\/?\w+&gt;|\&amp;\#?\w{1,10}\;|\%\d{2,3}</value>
+  </data>
+  <data name="RegEx_SqlKeyWords" xml:space="preserve">
+    <value>\b(insert|update|select|where|from|delete|in|between|values|into|and)\s+</value>
+  </data>
+  <data name="RegEx_SqlNewLineWords" xml:space="preserve">
+    <value>\b(insert|update|select|where|from|delete)\b</value>
+  </data>
+  <data name="RegEx_SqlStrings" xml:space="preserve">
+    <value>([\s,])('[^']*')([\s,])</value>
+  </data>
+  <data name="RegEx_SSN" xml:space="preserve">
+    <value>^\d{3}\-\d{2}\-\d{4}$</value>
+  </data>
+  <data name="Script_ButtonMouseOver" xml:space="preserve">
+    <value>Button(this, {0});</value>
+    <comment>0: boolean</comment>
+  </data>
+  <data name="Script_CreateValidation" xml:space="preserve">
+    <value>new Validation.Field("{0}","{1}","{2}",{3})</value>
+    <comment>0:field name; 1:type; 2:note; 3:required</comment>
+  </data>
+  <data name="Script_Focus" xml:space="preserve">
+    <value>document.forms[0].{0}.focus();</value>
+  </data>
+  <data name="Script_FormAction" xml:space="preserve">
+    <value>Page.SetAction({0})</value>
+  </data>
+  <data name="Script_KeyForButton" xml:space="preserve">
+    <value>AfterPageLoad(function() {{ Page.AddClickKey("{0}", {1}); }});</value>
+  </data>
+  <data name="Script_KeyPressFunction" xml:space="preserve">
+    <value>Page.OnKeyPress({0}, {1})</value>
+    <comment>0:function; 2:key code</comment>
+  </data>
+  <data name="Script_ListTransfer" xml:space="preserve">
+    <value>DOM.ListTransfer('{0}','{1}')</value>
+  </data>
+  <data name="Script_PostAction" xml:space="preserve">
+    <value>Page.Post({0})</value>
+  </data>
+  <data name="Script_Redirect" xml:space="preserve">
+    <value>Page.Redirect('{0}', null, {1})</value>
+  </data>
+  <data name="Script_SelectList" xml:space="preserve">
+    <value>DOM.SelectList('{0}')</value>
+  </data>
+  <data name="Script_SetHiddenID" xml:space="preserve">
+    <value>DOM.SetValue('id', '{0}')</value>
+    <comment>0: GUID</comment>
+  </data>
+  <data name="Script_SetNodeValue" xml:space="preserve">
+    <value>DOM.SetValue('{0}', '{1}', true)</value>
+  </data>
+  <data name="Script_ShowDialog" xml:space="preserve">
+    <value>Page.ShowDialog('{0}', {1})</value>
+    <comment>0:control type name; 1:modality</comment>
+  </data>
+  <data name="Select_Any" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="Select_Choose" xml:space="preserve">
+    <value>Choose one</value>
+  </data>
+  <data name="Select_New" xml:space="preserve">
+    <value>New...</value>
+  </data>
+  <data name="Select_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="URL_GoogleMap" xml:space="preserve">
+    <value>http://maps.google.com/maps?q={0} {1}</value>
+  </data>
+  <data name="URL_ImageCache" xml:space="preserve">
+    <value>images/cache.ashx?key={0}&amp;type={1}</value>
+  </data>
+  <data name="URL_LookupIp" xml:space="preserve">
+    <value>http://www.dnsstuff.com/tools/whois.ch?ip={0}</value>
+  </data>
+  <data name="URL_LookupPhoneNumber" xml:space="preserve">
+    <value>http://dexknows.whitepages.com/search/ReversePhone?phone={0}{1}</value>
+  </data>
+  <data name="URL_VisioViewer" xml:space="preserve">
+    <value>http://www.microsoft.com/downloads/details.aspx?DisplayLang=en&amp;FamilyID=d88e4542-b174-4198-ae31-6884e9edd524</value>
+  </data>
+</root>

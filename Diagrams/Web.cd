@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Idaho.Web.EcmaScript" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\EcmaScript.cs</FileName>
+      <HashCode>IAAgAAAAAJCAAAAAAAAAAAAEAAAAAgAAAAoAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Page" Collapsed="true">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Page.cs</FileName>
+      <HashCode>CIEIOgEgAkK0BAgJkCCYAAEKKAAAAQ2hIBAEgFRKQAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Profile" Collapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Profile.cs</FileName>
+      <HashCode>AAABjIQABggSBQQAAIKgAAoAAAgACIABEABAIAhCUAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.MasterPage" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\MasterPage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAQE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.EcmaScriptMinify" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\EcmaScriptMinify.cs</FileName>
+      <HashCode>AgEAAAAIBAAEAABGAgAAAAAAAAAAAAEgEAAABAEAQIg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Ajax.AsyncResult" Collapsed="true">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Ajax\AsyncResult.cs</FileName>
+      <HashCode>AAAAAAIAAAAAAAIAAAAAEAAAAICAABAQAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Web.Ajax.CacheCollection" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Ajax\CacheCollection.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAAQBAAAAAAAAAAAAAAQAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Ajax.CacheItem" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Ajax\CacheItem.cs</FileName>
+      <HashCode>ABAABAAAAAAAAAQQAACAAAAAAAAAAAAAQAEwAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Ajax.ControlRequest" Collapsed="true">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Ajax\ControlRequest.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Ajax.MethodRequest" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Ajax\MethodRequest.cs</FileName>
+      <HashCode>AAAABAAAEQAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Ajax.PageRequest" Collapsed="true">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Ajax\PageRequest.cs</FileName>
+      <HashCode>AAAAAAAAEAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Ajax.Request" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Ajax\Request.cs</FileName>
+      <HashCode>AAAAAAAAAgDAACQACgCAAAAACAAAAAAAAJAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Ajax.Response" Collapsed="true">
+    <Position X="1" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Ajax\Response.cs</FileName>
+      <HashCode>ABgABAAgAoBAByoAAAAAAAAAQAIAAAAAAIAAAAAgACI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.ClientResourceList" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\ClientResourceList.cs</FileName>
+      <HashCode>ACIAAEgBAAACAAAAAAAAAAAAAAAACAAAAIAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.UniqueStringList" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UniqueStringList.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

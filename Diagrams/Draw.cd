@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Idaho.Draw.GraphicBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\Graphic.cs</FileName>
+      <HashCode>EAQQIOAAFRACoAIMQAwAEUBwAEhAIdACGQJKgGIAiEg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Draw.Button" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\Button.cs</FileName>
+      <HashCode>QggAYAAEgoggA1IAAgAACJIISEQARMaMBAggCSAKKBA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Draw.Corner" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\Corner.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAgAQAAgAEACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Draw.Star" Collapsed="true">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\Star.cs</FileName>
+      <HashCode>AEAAAAAAAAAAgAAAkAgAAACAAAAAAEEIAAAAAgAACIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Draw.TextGraphic" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\Text.cs</FileName>
+      <HashCode>AgAAECAAgAAgggAAAAAAiBAIAEAAAEAIAEAACUIACAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Draw.Utility" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\Utility.cs</FileName>
+      <HashCode>ACAAAAAAAAAAAAAAAAEAAAAAAggAIAABAAAAgAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Draw.Toggle" Collapsed="true">
+    <Position X="1.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\Toggle.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAACAAAAAAAAEAABAgABCAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Draw.ColorMatrix" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\ColorMatrix.cs</FileName>
+      <HashCode>ACIJABAAFQCAAAAAAAgAAEAAABAAAAAgAAAAgQAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Draw.ConvolutionMatrix" Collapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\ConvolutionMatrix.cs</FileName>
+      <HashCode>CAEIQEAQAAQAgAAAAAAAAQAAAAAAQAAAACAAIQYAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Draw.ScaledImage" Collapsed="true">
+    <Position X="1.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\ScaledImage.cs</FileName>
+      <HashCode>AAAQAAAAAAAAQAAAIAAAAAAAEAAAAEAAIAAAAgAAGAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Draw.Triangle" Collapsed="true">
+    <Position X="1.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\Triangle.cs</FileName>
+      <HashCode>AAAAAAAAABAAAAAAACAAAAAAAAAAAEAAAAAIAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Idaho.Draw.ITextDrawer" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Draw\ITextDrawer.cs</FileName>
+      <HashCode>AgAAAAAAAAAgAgAAAAAAAAAAAEAAAAAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

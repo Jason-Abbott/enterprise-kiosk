@@ -1,0 +1,420 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68C9E3D3-6800-4C0A-98CB-029126DED2B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Idaho</RootNamespace>
+    <AssemblyName>Idaho.System</AssemblyName>
+    <SccProjectName>"%24/Enterprise-Kiosk/Idaho.System", ITFAAAAA</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/Enterprise.Kiosk/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Enterprise.Kiosk\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Training Debug|AnyCPU' ">
+    <OutputPath>bin\Training Debug\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GCheckout, Version=1.3.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\GCheckout.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assert.cs" />
+    <Compile Include="Attributes\DoNoUpdateFieldAttribute.cs" />
+    <Compile Include="Attributes\EnumDescriptionAttribute.cs" />
+    <Compile Include="Attributes\EnumValidationAttribute.cs" />
+    <Compile Include="Attributes\FontValidationAttribute.cs" />
+    <Compile Include="Attributes\FormAttribute.cs" />
+    <Compile Include="Attributes\PatternValidationAttribute.cs" />
+    <Compile Include="Attributes\UpdatableFieldAttribute.cs" />
+    <Compile Include="Attributes\WebBindable.cs" />
+    <Compile Include="Attributes\WebInvokable.cs" />
+    <Compile Include="Configuration\ActiveDirectoryConfiguration.cs" />
+    <Compile Include="Configuration\AssemblyElement.cs" />
+    <Compile Include="Configuration\AssemblyElementCollection.cs" />
+    <Compile Include="Configuration\ButtonConfiguration.cs" />
+    <Compile Include="Configuration\ButtonElement.cs" />
+    <Compile Include="Configuration\ButtonElementCollection.cs" />
+    <Compile Include="Configuration\CacheElement.cs" />
+    <Compile Include="Configuration\CacheElementCollection.cs" />
+    <Compile Include="Configuration\ColorElement.cs" />
+    <Compile Include="Configuration\ConfigurationSection.cs" />
+    <Compile Include="Configuration\FontElement.cs" />
+    <Compile Include="Configuration\GraphicConfigurationGroup.cs" />
+    <Compile Include="Configuration\ISelfLoad.cs" />
+    <Compile Include="Configuration\MouseOverElement.cs" />
+    <Compile Include="Configuration\ResourceConfiguration.cs" />
+    <Compile Include="Configuration\Validation\EnumValidation.cs" />
+    <Compile Include="Configuration\Validation\FontValidation.cs" />
+    <Compile Include="Configuration\Validation\PatternValidation.cs" />
+    <Compile Include="Configuration\Validation\UriValidation.cs" />
+    <Compile Include="Attributes\UriValidationAttribute.cs" />
+    <Compile Include="DataMap\FieldMap.cs" />
+    <Compile Include="Data\ActiveDirectory.cs" />
+    <Compile Include="Data\Binder.cs" />
+    <Compile Include="Data\File.cs" />
+    <Compile Include="Data\IParameterCollection.cs" />
+    <Compile Include="Data\Jet.cs" />
+    <Compile Include="Data\Mapping.cs" />
+    <Compile Include="Data\Migration.cs" />
+    <Compile Include="Data\Reader.cs" />
+    <Compile Include="Data\ReaderBase.cs" />
+    <Compile Include="Data\Relational.cs" />
+    <Compile Include="Data\Sql.cs" />
+    <Compile Include="Data\SqlParameterCollection.cs" />
+    <Compile Include="Data\SqlReader.cs" />
+    <Compile Include="Data\Xml.cs" />
+    <Compile Include="DateRange.cs" />
+    <Compile Include="Debug.cs" />
+    <Compile Include="Domain\Activity\SiteActivity.cs" />
+    <Compile Include="Domain\Activity\SiteActivityCollection.cs" />
+    <Compile Include="Domain\Activity\SiteActivityFilter.cs" />
+    <Compile Include="Domain\Activity\SiteActivitySort.cs" />
+    <Compile Include="Domain\Address.cs" />
+    <Compile Include="Domain\AddressCollection.cs" />
+    <Compile Include="DataMap\ObjectMap.cs" />
+    <Compile Include="Domain\Entity.cs" />
+    <Compile Include="Domain\EntityCollection.cs" />
+    <Compile Include="Domain\IComparer.cs" />
+    <Compile Include="Domain\IFilter.cs" />
+    <Compile Include="Domain\IHierarchical.cs" />
+    <Compile Include="Domain\IHierarchicalCollection.cs" />
+    <Compile Include="Domain\ILimitVisibility.cs" />
+    <Compile Include="Domain\ILinkable.cs" />
+    <Compile Include="Domain\IListable.cs" />
+    <Compile Include="Domain\Indicator.cs" />
+    <Compile Include="Domain\IndicatorCollection.cs" />
+    <Compile Include="Domain\IObjectRelationMap.cs" />
+    <Compile Include="Domain\ISignalingObject.cs" />
+    <Compile Include="Domain\Person.cs" />
+    <Compile Include="Domain\PhoneNumber.cs" />
+    <Compile Include="Domain\PhoneNumberCollection.cs" />
+    <Compile Include="DataMap\PropertyMap.cs" />
+    <Compile Include="Domain\Stub.cs" />
+    <Compile Include="Domain\StubCollection.cs" />
+    <Compile Include="Domain\Version.cs" />
+    <Compile Include="Draw\Button.cs" />
+    <Compile Include="Draw\ColorMatrix.cs" />
+    <Compile Include="Draw\ConvolutionMatrix.cs" />
+    <Compile Include="Draw\Corner.cs" />
+    <Compile Include="Draw\Graphic.cs" />
+    <Compile Include="Draw\ITextDrawer.cs" />
+    <Compile Include="Draw\Line.cs" />
+    <Compile Include="Draw\ScaledImage.cs" />
+    <Compile Include="Draw\Star.cs" />
+    <Compile Include="Draw\Text.cs" />
+    <Compile Include="Draw\Toggle.cs" />
+    <Compile Include="Draw\Triangle.cs" />
+    <Compile Include="Draw\Utility.cs" />
+    <Compile Include="Events\ControlEventArgs.cs" />
+    <Compile Include="Events\EventArgs.cs" />
+    <Compile Include="Extensions\DateTime.cs" />
+    <Compile Include="Extensions\Double.cs" />
+    <Compile Include="Extensions\Enum.cs" />
+    <Compile Include="Extensions\Expression.cs" />
+    <Compile Include="Extensions\FieldInfo.cs" />
+    <Compile Include="Extensions\Integer.cs" />
+    <Compile Include="Extensions\Long.cs" />
+    <Compile Include="Extensions\Object.cs" />
+    <Compile Include="Extensions\String.cs" />
+    <Compile Include="Extensions\StringBuilder.cs" />
+    <Compile Include="Extensions\Type.cs" />
+    <Compile Include="Network\Events\EventArgs.cs" />
+    <Compile Include="Network\Events\ControlEventArgs.cs" />
+    <Compile Include="IAuthorize.cs" />
+    <Compile Include="KeyValuePair.cs" />
+    <Compile Include="NameValue.cs" />
+    <Compile Include="Network\Web.cs" />
+    <Compile Include="Pair.cs" />
+    <Compile Include="Pattern.cs" />
+    <Compile Include="Scheduler\IScheduleTask.cs" />
+    <Compile Include="Scheduler\Schedule.cs" />
+    <Compile Include="Scheduler\ScheduleTask.cs" />
+    <Compile Include="SortedDictionary.cs" />
+    <Compile Include="Web\Ajax\CacheCollection.cs" />
+    <Compile Include="Web\Ajax\CacheItem.cs" />
+    <Compile Include="Web\Ajax\PageRequest.cs" />
+    <Compile Include="Web\Application.cs" />
+    <Compile Include="Web\Controls\DateRange.cs" />
+    <Compile Include="Web\Controls\Diagram.cs" />
+    <Compile Include="Draw\Diagram\Connector.cs" />
+    <Compile Include="Draw\Diagram\Entity.cs" />
+    <Compile Include="Draw\Diagram\Item.cs" />
+    <Compile Include="Draw\Diagram\Panel.cs" />
+    <Compile Include="Draw\Diagram\Surface.cs" />
+    <Compile Include="Web\Controls\Dialog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\Div.cs" />
+    <Compile Include="Web\Controls\Fieldset.cs" />
+    <Compile Include="Web\Controls\Grids\ActivityGrid.cs" />
+    <Compile Include="Web\Controls\Grids\GridColumn.cs" />
+    <Compile Include="Web\Controls\Grids\GridColumnCollection.cs" />
+    <Compile Include="Web\Controls\HtmlContainerControl.cs" />
+    <Compile Include="Web\Controls\IConfigurable.cs" />
+    <Compile Include="Web\Controls\Image\IConfigurable.cs" />
+    <Compile Include="Web\Controls\IInputControl.cs" />
+    <Compile Include="Web\Controls\Image\IImage.cs" />
+    <Compile Include="Web\Controls\Image\ImageStrip.cs">
+    </Compile>
+    <Compile Include="Web\Controls\Image\Line.cs" />
+    <Compile Include="Web\Controls\Image\Text.cs" />
+    <Compile Include="Web\Controls\Image\Triangle.cs" />
+    <Compile Include="Web\Controls\Label.cs" />
+    <Compile Include="Web\Controls\Link.cs" />
+    <Compile Include="Web\Controls\Lists\Columns.cs" />
+    <Compile Include="Web\Controls\Lists\HierarchicalList.cs" />
+    <Compile Include="Web\Controls\Lists\ListPair.cs" />
+    <Compile Include="Web\Controls\Lists\PanelList.cs" />
+    <Compile Include="Web\Controls\Lists\TimeList.cs" />
+    <Compile Include="Web\Controls\Navigation\Step.cs" />
+    <Compile Include="Web\Controls\Navigation\StepContainer.cs" />
+    <Compile Include="Web\Controls\Navigation\Tab.cs" />
+    <Compile Include="Web\Controls\Navigation\TabContainer.cs" />
+    <Compile Include="Web\Controls\Title.cs" />
+    <Compile Include="Web\EcmaScript.cs" />
+    <Compile Include="Network\Email.cs" />
+    <Compile Include="Domain\Exceptions\Exception.cs" />
+    <Compile Include="Domain\Exceptions\ExceptionCollection.cs" />
+    <Compile Include="Domain\Exceptions\ExceptionFilter.cs" />
+    <Compile Include="Domain\Exceptions\ExceptionSort.cs" />
+    <Compile Include="Format.cs" />
+    <Compile Include="Resource.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Web\Ajax\AsyncResult.cs" />
+    <Compile Include="Web\Ajax\ControlRequest.cs" />
+    <Compile Include="Web\Ajax\MethodRequest.cs" />
+    <Compile Include="Web\Ajax\Request.cs" />
+    <Compile Include="Web\Controls\AjaxBase.cs" />
+    <Compile Include="Web\Controls\AjaxControl.cs" />
+    <Compile Include="Web\Controls\AjaxUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\Grids\Grid.cs" />
+    <Compile Include="Web\Controls\Grids\ExceptionGrid.cs" />
+    <Compile Include="Web\Controls\IAjaxControl.cs" />
+    <Compile Include="Web\Controls\Lists\FileList.cs" />
+    <Compile Include="Web\Controls\Lists\MonthList.cs" />
+    <Compile Include="Web\Controls\Lists\NumberList.cs" />
+    <Compile Include="Web\EcmaScriptMinify.cs" />
+    <Compile Include="Web\Email.cs" />
+    <Compile Include="Web\Handlers\AjaxHandler.cs" />
+    <Compile Include="Web\Handlers\AsyncAjaxHandler.cs" />
+    <Compile Include="Web\Handlers\CornerGraphicHandler.cs" />
+    <Compile Include="Web\Handlers\GoogleHandler.cs" />
+    <Compile Include="Web\Handlers\GradientGraphicHandler.cs" />
+    <Compile Include="Web\Handlers\GraphicHandler.cs" />
+    <Compile Include="Web\Handlers\ImageHandler.cs" />
+    <Compile Include="Web\Handlers\ResourceHandler.cs" />
+    <Compile Include="Web\Handlers\SolidGraphicHandler.cs" />
+    <Compile Include="Web\Handlers\TextGraphicHandler.cs" />
+    <Compile Include="Identity.cs" />
+    <Compile Include="Information.cs" />
+    <Compile Include="Network\DNS.cs" />
+    <Compile Include="Network\IpAddress.cs" />
+    <Compile Include="Network\Login.cs" />
+    <Compile Include="Network\MxRecord.cs" />
+    <Compile Include="Network\SMTP.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Serialization.cs" />
+    <Compile Include="UniqueStringList.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="Web\Ajax\Response.cs" />
+    <Compile Include="Web\ClientResourceList.cs" />
+    <Compile Include="Web\Controls\Content.cs" />
+    <Compile Include="Web\Controls\DatePicker.cs" />
+    <Compile Include="Web\Controls\EnumCheckbox.cs" />
+    <Compile Include="Web\Controls\Field.cs" />
+    <Compile Include="Web\Controls\FieldPair.cs" />
+    <Compile Include="Web\Controls\HtmlControl.cs" />
+    <Compile Include="Web\Controls\Image\Button.cs" />
+    <Compile Include="Web\Controls\Image\Corner.cs" />
+    <Compile Include="Web\Controls\Image\Image.cs" />
+    <Compile Include="Web\Controls\Image\RatingStars.cs" />
+    <Compile Include="Web\Controls\Image\Star.cs" />
+    <Compile Include="Web\Controls\Image\Toggle.cs" />
+    <Compile Include="Web\Controls\InputControl.cs" />
+    <Compile Include="Web\Controls\Lists\AddressList.cs" />
+    <Compile Include="Web\Controls\Lists\EnumList.cs" />
+    <Compile Include="Web\Controls\Lists\ISelect.cs" />
+    <Compile Include="Web\Controls\Lists\SelectList.cs" />
+    <Compile Include="Web\Controls\Navigation\Menu.cs" />
+    <Compile Include="Web\Controls\Navigation\Navigation.cs" />
+    <Compile Include="Web\Controls\Navigation\NavigationNode.cs" />
+    <Compile Include="Web\Controls\Navigation\NavigationNodeCollection.cs" />
+    <Compile Include="Web\Controls\Navigation\Tabs.cs" />
+    <Compile Include="Web\Controls\Upload.cs" />
+    <Compile Include="Web\Controls\UserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\Validation.cs" />
+    <Compile Include="Web\Handlers\TriangleGraphicHandler.cs" />
+    <Compile Include="Web\IScriptable.cs" />
+    <Compile Include="Web\MasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Modules\AuthorizationModule.cs" />
+    <Compile Include="Web\Modules\BasicAuthenticationModule.cs" />
+    <Compile Include="Web\Modules\CompressionModule.cs" />
+    <Compile Include="Web\Page.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Profile.cs" />
+    <Compile Include="Web\Symbol.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrams\Data.cd" />
+    <None Include="Diagrams\Draw.cd" />
+    <None Include="Diagrams\Entities.cd" />
+    <None Include="Diagrams\Handlers.cd" />
+    <None Include="Diagrams\Network.cd" />
+    <None Include="Diagrams\Web.cd" />
+    <None Include="Diagrams\WebControls.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web\Resources\images\alert.png" />
+    <EmbeddedResource Include="Web\Resources\images\blank.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\active-bg.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\dark-bg.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\hover-bg.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\menuarrow.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\normal-bg.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\rowhover-bg.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\status-bg.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\title-bg.gif" />
+    <EmbeddedResource Include="Web\Resources\images\calendar\today-bg.gif" />
+    <EmbeddedResource Include="Web\Resources\images\error.png" />
+    <EmbeddedResource Include="Web\Resources\images\information.png" />
+    <EmbeddedResource Include="Web\Resources\images\warning.png" />
+    <EmbeddedResource Include="Web\Resources\images\working.gif" />
+    <EmbeddedResource Include="Web\Resources\script\ajax.js" />
+    <EmbeddedResource Include="Web\Resources\script\calendar\calendar-en.js" />
+    <EmbeddedResource Include="Web\Resources\script\calendar\calendar-setup.js" />
+    <EmbeddedResource Include="Web\Resources\script\calendar\calendar.js" />
+    <EmbeddedResource Include="Web\Resources\script\control.js" />
+    <EmbeddedResource Include="Web\Resources\script\cookies.js" />
+    <EmbeddedResource Include="Web\Resources\script\dom.js" />
+    <EmbeddedResource Include="Web\Resources\script\grid.js" />
+    <EmbeddedResource Include="Web\Resources\script\menu.js" />
+    <EmbeddedResource Include="Web\Resources\script\page.js" />
+    <EmbeddedResource Include="Web\Resources\script\validation.js" />
+    <EmbeddedResource Include="Web\Resources\script\webpart.js" />
+    <EmbeddedResource Include="Web\Resources\style\calendar.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Resources\images\calendar\calendar_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Resources\style\png-fix.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Resources\script\diagram.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Resources\script\hierarchy.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Resources\script\extensions.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

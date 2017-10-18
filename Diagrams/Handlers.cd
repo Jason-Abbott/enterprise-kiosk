@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Idaho.Web.Handlers.AjaxHandler" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\AjaxHandler.cs</FileName>
+      <HashCode>AACAAAABBAAAAgACABAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Web.Handlers.AsyncAjaxHandler" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\AsyncAjaxHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Web.Handlers.GradientGraphic" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\GradientGraphicHandler.cs</FileName>
+      <HashCode>AAAAACAAAAAAAAQAABAQACAAAAAAAAiIAAAEAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Handlers.Graphic" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\GraphicHandler.cs</FileName>
+      <HashCode>AAAAAAAgBYDAByAAQBgAAEAAABAAgAkAAAAAIAAAIAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Web.Handlers.Image" Collapsed="true">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\ImageHandler.cs</FileName>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Web.Handlers.Resource" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\ResourceHandler.cs</FileName>
+      <HashCode>AIACAAAAFAACAAAAABAEQAAkAQBAAAgAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Idaho.Web.Handlers.SolidGraphic" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\SolidGraphicHandler.cs</FileName>
+      <HashCode>AAgAAAAAAAAIAAAEABAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Handlers.TextGraphic" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\TextGraphicHandler.cs</FileName>
+      <HashCode>AAAAACAAgAAAAAAEABAAAAAAAAAAAAAIABAAAAIAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Handlers.CornerGraphic" Collapsed="true">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\CornerGraphicHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAYIAAEABAAAAAAAEAAAAAgAAAAAAAAIIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Handlers.TriangleGraphic" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\TriangleGraphicHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAEABAAAAAAAAAAAAAAAAAIAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idaho.Web.Handlers.Google" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Web\Handlers\GoogleHandler.cs</FileName>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+</ClassDiagram>
